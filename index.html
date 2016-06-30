@@ -90,7 +90,7 @@
             line() {
                 return d3.line()
                       .x(d => this.x(d.date))
-                      .y(d => this.y(d.date));
+                      .y(d => this.y(d.close));
             },
         },
     }
